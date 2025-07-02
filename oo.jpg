@@ -1,0 +1,184 @@
+@font-face {
+  font-family: "Faberge";
+  src: url("./Faberge-Regular.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Grobled";
+  src: url("./Gropled-Bold.otf") format("otf");
+}
+
+.contain {
+  margin: 0 80px;
+  border-bottom: 1px #291a51 solid;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #291a51;
+  font-family: Faberge;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+span,
+a {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1 {
+  font-weight: 700;
+  font-family: Gropled;
+  font-size: 48px;
+  margin-bottom: -20px;
+}
+
+.log {
+  font-weight: 700;
+  font-size: 20px;
+  padding-left: 122px;
+  font-family: Gropled;
+}
+
+.line {
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+header ul {
+  display: flex;
+  gap: 106px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0 !important;
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 48px;
+  text-decoration: underline;
+  font-weight: 400;
+}
+
+.services li {
+  font-size: 27px;
+  background-color: #d3d8e0;
+  padding: 15px;
+  width: 295px;
+  text-align: center;
+  border-radius: 24px;
+}
+
+.services h3 {
+  border-bottom: 1px #291a51 solid;
+  display: inline-block;
+  margin-top: 28px;
+  padding-bottom: 14px;
+}
+
+.services button {
+  color: #f5f4ed;
+  background-color: rgba(44, 63, 112, 0.73);
+  font-family: Faberge;
+  font-size: 24px;
+  border: none;
+  border-radius: 24px;
+  padding: 10px 72px;
+  margin-top: 27px;
+}
+
+.services ul {
+  display: flex;
+  gap: 19px;
+}
+
+.services a {
+  font-size: 27px;
+  color: #291a51;
+  display: inline-block;
+  margin-top: 21px;
+  margin-bottom: 58px;
+}
+
+.nav {
+  color: #291a51;
+  gap: 35px;
+  display: flex;
+  font-size: 28px;
+  margin-top: 27px;
+  margin-bottom: 51px;
+}
+
+.meb{
+  display: flex;
+  justify-content: space-between;
+}
+
+.meb li{
+  position: relative;
+}
+
+.meb h3{
+  position: absolute;
+  left: 5%;
+  bottom: 5%;
+  color: #f5f4ed;
+  width: 90%;
+}
+
+.reviews a{
+  color: #291a51;
+  font-size: 27px;
+  display: inline-block;
+  margin-top: 22px;
+  margin-bottom: 56px;
+}
+
+.revv li{
+  background-color: #D3D8E0;
+  width: 401px;
+  padding: 25px;
+}
+
+.revv h3, .revv h4{
+  color: #291a51;
+  font-size: 20px;
+}
+
+.revv h4{
+  margin-bottom: 10px;
+}
+
+.stars{
+  width: 95px;
+  height: 15px;
+}
+
+.rr{
+  display: flex;
+  gap: 12px;
+}
